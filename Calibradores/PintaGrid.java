@@ -67,7 +67,7 @@ public class PintaGrid {
 		
 	}
 	public void pintaRandom(int[][] grid){
-		 // estos fors son para multiplicar el tamaño del grid por el aumento deseado para el
+		 // estos fors son para multiplicar el tamaÃ±o del grid por el aumento deseado para el
 		// despliegue en la pantalla
 		int maximo =0;
 		
@@ -140,7 +140,7 @@ public class PintaGrid {
 	}
 	public void pinta(int[][] grid){
 		
-        // estos fors son para multiplicar el tamaño del grid por el aumento deseado para el
+        // estos fors son para multiplicar el tamaÃ±o del grid por el aumento deseado para el
 		// despliegue en la pantalla
 		for (int i=1;i<=numeroDeColumnas;i++){
 			for (int j=1;j<=numeroDeRenglones;j++){

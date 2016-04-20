@@ -136,9 +136,15 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 		
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
+		String carpeta;
+		if(args.length == 0){
+			carpeta = "/Users/fidel/121avos";
+		}else{
+			carpeta = args[0];
+		}
 		
-		EvolucionanCuencaAgri gente = new EvolucionanCuencaAgri("/Users/fidel/OneDrive/workspaceJava/ExperimentosMEGADAPT/entero");
+		EvolucionanCuencaAgri gente = new EvolucionanCuencaAgri(carpeta);
 		//int[] unAdn = {3, 3, 21, 64, 326, 98, 93, 13};
 		gente.empiezen();
 		//3, 4, 20, 86, 100, 10, 10, 40, 0.08748903611458428
@@ -146,7 +152,7 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 	}
 	public double mide(int[] parametros) {
 		
-		return CA.mide(parametros, 1);
+		return CA.mide(parametros, 10);
 	}
 	@Override
 	public int[][] unOutputPara(int[] parametros) {

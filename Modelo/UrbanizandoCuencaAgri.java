@@ -39,7 +39,7 @@ public class UrbanizandoCuencaAgri extends Automata {
 	
 		
     
-	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los a�os de prueba
+	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los años de prueba
 								
 	//double wagri = .8; // peso agricultura-bosque
 	double wpend = .99; // peso pendiente

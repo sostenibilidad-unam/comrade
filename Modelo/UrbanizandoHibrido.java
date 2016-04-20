@@ -41,7 +41,7 @@ public class UrbanizandoHibrido extends Automata{
 	double[][] dificultad;
     
     
-	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los años de prueba
+	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los aÃ±os de prueba
 								
 	//double wagri = .8; // peso agricultura-bosque
 	double wpend = .99; // peso pendiente
@@ -317,7 +317,7 @@ public class UrbanizandoHibrido extends Automata{
     			if ( dificultad[i][j]>=1 ){
     				valor[i][j][iteracion+1] = 1;
     			}else if ( (sumaMore >= vecino_1) && (dist_vias[i][j] <= buffer_carretera_1) ){
-    				 valor[i][j][iteracion+1] = 10;// difusion (engorda los 10’s)
+    				 valor[i][j][iteracion+1] = 10;// difusion (engorda los 10ï¿½s)
     			}else valor[i][j][iteracion+1] = 1;
         	}
     		//reglas de transicion para cambiar de 10 a 100
@@ -326,7 +326,7 @@ public class UrbanizandoHibrido extends Automata{
 	    			if ( dificultad[i][j]>=1 ){
 	    				valor[i][j][iteracion+1] = 10;
 	    			}else if (sumaMore >= vecino_2){
-	    				valor[i][j][iteracion+1] = 100; // engorda los 100’s
+	    				valor[i][j][iteracion+1] = 100; // engorda los 100ï¿½s
 	    			}else valor[i][j][iteracion+1] = 10;
     			}else valor[i][j][iteracion+1] = 10;
     		}

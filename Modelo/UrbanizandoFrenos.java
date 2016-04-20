@@ -39,7 +39,7 @@ public class UrbanizandoFrenos extends Automata {
 	
 		
     
-	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los años de prueba
+	int lasIteracionesDeseadas=0; //lasIteracionesDeseadas son los aÃ±os de prueba
 								
 	//double wagri = .8; // peso agricultura-bosque
 	double wpend = .99; // peso pendiente
@@ -337,7 +337,7 @@ public class UrbanizandoFrenos extends Automata {
     			if ( (necedad<dificultadPendiente) || (necedad < dificultadBosque)){
     				valor[i][j][iteracion+1] = 1;
     			}else if (sumaMore >= difusion10){
-    				 valor[i][j][iteracion+1] = 10;// difusion (engorda los 10’s)
+    				 valor[i][j][iteracion+1] = 10;// difusion (engorda los 10s)
     			}else valor[i][j][iteracion+1] = 1;
         	}
     		//reglas de transicion para cambiar de 10 a 100
@@ -346,7 +346,7 @@ public class UrbanizandoFrenos extends Automata {
 	    			valor[i][j][iteracion+1] = 10;
 	    		}else{
 	    			if (sumaMore >= difusion100){
-	    				valor[i][j][iteracion+1] = 100; // engorda los 100’s
+	    				valor[i][j][iteracion+1] = 100; // engorda los 100s
 	    			}else valor[i][j][iteracion+1] = 10;
 	    		}
     		}

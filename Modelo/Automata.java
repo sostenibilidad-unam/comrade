@@ -64,7 +64,7 @@ public class Automata {
 		public double distanciaEnCeldas (int x1, int y1, int x2, int y2){
 			//esta es la distancia en celdas osea que para obtener la distancia 
 			//en alguna unidad de medidad mas universal como metros es necesario 
-			//multiplicar por el tama�o de celda que se use en cada aplicacion 
+			//multiplicar por el tamaño de celda que se use en cada aplicacion 
 			return Math.sqrt( ((x1-x2)*(x1-x2)) + ((y1-y2)*(y1-y2)) );
 		}
 

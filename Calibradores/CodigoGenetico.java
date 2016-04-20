@@ -9,7 +9,7 @@ package Calibradores;
  * vecino_0			   = {1-24}	   12
  * vecino_pueblo_0     = {1-24}    12 *NUEVO*
  * vecino_carretera_0  = {1-24}	   11        /* el minimo numero de vecino necesario para que: si estas en el bufer de la carretera, puedas cambiar al siguiente estado
- * buffer_carretera_0  = {10-300}  150	     /* el tamaño de bufer de la carretera en metros
+ * buffer_carretera_0  = {10-300}  150	     /* el tamaÃ±o de bufer de la carretera en metros
  * buffer_pueblo       = {10-444}      *NUEVO*
  * buffer_carr_pueb    = {10-555}      *NUEVO*   
  * 		primer intento....SoloUnos						
@@ -22,7 +22,7 @@ package Calibradores;
  * buffer_carretera_10 = {10-300}  30
  * wagri               = {0-1}     .8		/* peso agricultura-bosque
  * wpend               = {0-1}     .99 	    /* peso pendiente
- * ¿¿¿iteraciones      = {?-?}     6??? 
+ * iteraciones      = {?-?}     6??? 
  *
  * 
  *  los reales (0-1)los convertire en enteros (0-100)
