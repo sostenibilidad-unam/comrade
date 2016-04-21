@@ -1,0 +1,967 @@
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y1.out
+Log = 121_x10y1.log
+Arguments = /export/home/rgarcia/121avos/x10y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y10.out
+Log = 121_x10y10.log
+Arguments = /export/home/rgarcia/121avos/x10y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y11.out
+Log = 121_x10y11.log
+Arguments = /export/home/rgarcia/121avos/x10y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y2.out
+Log = 121_x10y2.log
+Arguments = /export/home/rgarcia/121avos/x10y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y3.out
+Log = 121_x10y3.log
+Arguments = /export/home/rgarcia/121avos/x10y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y4.out
+Log = 121_x10y4.log
+Arguments = /export/home/rgarcia/121avos/x10y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y5.out
+Log = 121_x10y5.log
+Arguments = /export/home/rgarcia/121avos/x10y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y6.out
+Log = 121_x10y6.log
+Arguments = /export/home/rgarcia/121avos/x10y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y7.out
+Log = 121_x10y7.log
+Arguments = /export/home/rgarcia/121avos/x10y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y8.out
+Log = 121_x10y8.log
+Arguments = /export/home/rgarcia/121avos/x10y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x10y9.out
+Log = 121_x10y9.log
+Arguments = /export/home/rgarcia/121avos/x10y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y1.out
+Log = 121_x11y1.log
+Arguments = /export/home/rgarcia/121avos/x11y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y10.out
+Log = 121_x11y10.log
+Arguments = /export/home/rgarcia/121avos/x11y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y11.out
+Log = 121_x11y11.log
+Arguments = /export/home/rgarcia/121avos/x11y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y2.out
+Log = 121_x11y2.log
+Arguments = /export/home/rgarcia/121avos/x11y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y3.out
+Log = 121_x11y3.log
+Arguments = /export/home/rgarcia/121avos/x11y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y4.out
+Log = 121_x11y4.log
+Arguments = /export/home/rgarcia/121avos/x11y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y5.out
+Log = 121_x11y5.log
+Arguments = /export/home/rgarcia/121avos/x11y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y6.out
+Log = 121_x11y6.log
+Arguments = /export/home/rgarcia/121avos/x11y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y7.out
+Log = 121_x11y7.log
+Arguments = /export/home/rgarcia/121avos/x11y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y8.out
+Log = 121_x11y8.log
+Arguments = /export/home/rgarcia/121avos/x11y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x11y9.out
+Log = 121_x11y9.log
+Arguments = /export/home/rgarcia/121avos/x11y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y1.out
+Log = 121_x1y1.log
+Arguments = /export/home/rgarcia/121avos/x1y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y10.out
+Log = 121_x1y10.log
+Arguments = /export/home/rgarcia/121avos/x1y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y11.out
+Log = 121_x1y11.log
+Arguments = /export/home/rgarcia/121avos/x1y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y2.out
+Log = 121_x1y2.log
+Arguments = /export/home/rgarcia/121avos/x1y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y3.out
+Log = 121_x1y3.log
+Arguments = /export/home/rgarcia/121avos/x1y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y4.out
+Log = 121_x1y4.log
+Arguments = /export/home/rgarcia/121avos/x1y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y5.out
+Log = 121_x1y5.log
+Arguments = /export/home/rgarcia/121avos/x1y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y6.out
+Log = 121_x1y6.log
+Arguments = /export/home/rgarcia/121avos/x1y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y7.out
+Log = 121_x1y7.log
+Arguments = /export/home/rgarcia/121avos/x1y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y8.out
+Log = 121_x1y8.log
+Arguments = /export/home/rgarcia/121avos/x1y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x1y9.out
+Log = 121_x1y9.log
+Arguments = /export/home/rgarcia/121avos/x1y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y1.out
+Log = 121_x2y1.log
+Arguments = /export/home/rgarcia/121avos/x2y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y10.out
+Log = 121_x2y10.log
+Arguments = /export/home/rgarcia/121avos/x2y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y11.out
+Log = 121_x2y11.log
+Arguments = /export/home/rgarcia/121avos/x2y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y2.out
+Log = 121_x2y2.log
+Arguments = /export/home/rgarcia/121avos/x2y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y3.out
+Log = 121_x2y3.log
+Arguments = /export/home/rgarcia/121avos/x2y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y4.out
+Log = 121_x2y4.log
+Arguments = /export/home/rgarcia/121avos/x2y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y5.out
+Log = 121_x2y5.log
+Arguments = /export/home/rgarcia/121avos/x2y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y6.out
+Log = 121_x2y6.log
+Arguments = /export/home/rgarcia/121avos/x2y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y7.out
+Log = 121_x2y7.log
+Arguments = /export/home/rgarcia/121avos/x2y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y8.out
+Log = 121_x2y8.log
+Arguments = /export/home/rgarcia/121avos/x2y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x2y9.out
+Log = 121_x2y9.log
+Arguments = /export/home/rgarcia/121avos/x2y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y1.out
+Log = 121_x3y1.log
+Arguments = /export/home/rgarcia/121avos/x3y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y10.out
+Log = 121_x3y10.log
+Arguments = /export/home/rgarcia/121avos/x3y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y11.out
+Log = 121_x3y11.log
+Arguments = /export/home/rgarcia/121avos/x3y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y2.out
+Log = 121_x3y2.log
+Arguments = /export/home/rgarcia/121avos/x3y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y3.out
+Log = 121_x3y3.log
+Arguments = /export/home/rgarcia/121avos/x3y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y4.out
+Log = 121_x3y4.log
+Arguments = /export/home/rgarcia/121avos/x3y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y5.out
+Log = 121_x3y5.log
+Arguments = /export/home/rgarcia/121avos/x3y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y6.out
+Log = 121_x3y6.log
+Arguments = /export/home/rgarcia/121avos/x3y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y7.out
+Log = 121_x3y7.log
+Arguments = /export/home/rgarcia/121avos/x3y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y8.out
+Log = 121_x3y8.log
+Arguments = /export/home/rgarcia/121avos/x3y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x3y9.out
+Log = 121_x3y9.log
+Arguments = /export/home/rgarcia/121avos/x3y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y1.out
+Log = 121_x4y1.log
+Arguments = /export/home/rgarcia/121avos/x4y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y10.out
+Log = 121_x4y10.log
+Arguments = /export/home/rgarcia/121avos/x4y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y11.out
+Log = 121_x4y11.log
+Arguments = /export/home/rgarcia/121avos/x4y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y2.out
+Log = 121_x4y2.log
+Arguments = /export/home/rgarcia/121avos/x4y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y3.out
+Log = 121_x4y3.log
+Arguments = /export/home/rgarcia/121avos/x4y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y4.out
+Log = 121_x4y4.log
+Arguments = /export/home/rgarcia/121avos/x4y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y5.out
+Log = 121_x4y5.log
+Arguments = /export/home/rgarcia/121avos/x4y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y6.out
+Log = 121_x4y6.log
+Arguments = /export/home/rgarcia/121avos/x4y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y7.out
+Log = 121_x4y7.log
+Arguments = /export/home/rgarcia/121avos/x4y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y8.out
+Log = 121_x4y8.log
+Arguments = /export/home/rgarcia/121avos/x4y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x4y9.out
+Log = 121_x4y9.log
+Arguments = /export/home/rgarcia/121avos/x4y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y1.out
+Log = 121_x5y1.log
+Arguments = /export/home/rgarcia/121avos/x5y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y10.out
+Log = 121_x5y10.log
+Arguments = /export/home/rgarcia/121avos/x5y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y11.out
+Log = 121_x5y11.log
+Arguments = /export/home/rgarcia/121avos/x5y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y2.out
+Log = 121_x5y2.log
+Arguments = /export/home/rgarcia/121avos/x5y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y3.out
+Log = 121_x5y3.log
+Arguments = /export/home/rgarcia/121avos/x5y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y4.out
+Log = 121_x5y4.log
+Arguments = /export/home/rgarcia/121avos/x5y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y5.out
+Log = 121_x5y5.log
+Arguments = /export/home/rgarcia/121avos/x5y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y6.out
+Log = 121_x5y6.log
+Arguments = /export/home/rgarcia/121avos/x5y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y7.out
+Log = 121_x5y7.log
+Arguments = /export/home/rgarcia/121avos/x5y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y8.out
+Log = 121_x5y8.log
+Arguments = /export/home/rgarcia/121avos/x5y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x5y9.out
+Log = 121_x5y9.log
+Arguments = /export/home/rgarcia/121avos/x5y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y1.out
+Log = 121_x6y1.log
+Arguments = /export/home/rgarcia/121avos/x6y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y10.out
+Log = 121_x6y10.log
+Arguments = /export/home/rgarcia/121avos/x6y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y11.out
+Log = 121_x6y11.log
+Arguments = /export/home/rgarcia/121avos/x6y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y2.out
+Log = 121_x6y2.log
+Arguments = /export/home/rgarcia/121avos/x6y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y3.out
+Log = 121_x6y3.log
+Arguments = /export/home/rgarcia/121avos/x6y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y4.out
+Log = 121_x6y4.log
+Arguments = /export/home/rgarcia/121avos/x6y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y5.out
+Log = 121_x6y5.log
+Arguments = /export/home/rgarcia/121avos/x6y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y6.out
+Log = 121_x6y6.log
+Arguments = /export/home/rgarcia/121avos/x6y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y7.out
+Log = 121_x6y7.log
+Arguments = /export/home/rgarcia/121avos/x6y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y8.out
+Log = 121_x6y8.log
+Arguments = /export/home/rgarcia/121avos/x6y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x6y9.out
+Log = 121_x6y9.log
+Arguments = /export/home/rgarcia/121avos/x6y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y1.out
+Log = 121_x7y1.log
+Arguments = /export/home/rgarcia/121avos/x7y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y10.out
+Log = 121_x7y10.log
+Arguments = /export/home/rgarcia/121avos/x7y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y11.out
+Log = 121_x7y11.log
+Arguments = /export/home/rgarcia/121avos/x7y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y2.out
+Log = 121_x7y2.log
+Arguments = /export/home/rgarcia/121avos/x7y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y3.out
+Log = 121_x7y3.log
+Arguments = /export/home/rgarcia/121avos/x7y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y4.out
+Log = 121_x7y4.log
+Arguments = /export/home/rgarcia/121avos/x7y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y5.out
+Log = 121_x7y5.log
+Arguments = /export/home/rgarcia/121avos/x7y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y6.out
+Log = 121_x7y6.log
+Arguments = /export/home/rgarcia/121avos/x7y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y7.out
+Log = 121_x7y7.log
+Arguments = /export/home/rgarcia/121avos/x7y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y8.out
+Log = 121_x7y8.log
+Arguments = /export/home/rgarcia/121avos/x7y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x7y9.out
+Log = 121_x7y9.log
+Arguments = /export/home/rgarcia/121avos/x7y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y1.out
+Log = 121_x8y1.log
+Arguments = /export/home/rgarcia/121avos/x8y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y10.out
+Log = 121_x8y10.log
+Arguments = /export/home/rgarcia/121avos/x8y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y11.out
+Log = 121_x8y11.log
+Arguments = /export/home/rgarcia/121avos/x8y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y2.out
+Log = 121_x8y2.log
+Arguments = /export/home/rgarcia/121avos/x8y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y3.out
+Log = 121_x8y3.log
+Arguments = /export/home/rgarcia/121avos/x8y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y4.out
+Log = 121_x8y4.log
+Arguments = /export/home/rgarcia/121avos/x8y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y5.out
+Log = 121_x8y5.log
+Arguments = /export/home/rgarcia/121avos/x8y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y6.out
+Log = 121_x8y6.log
+Arguments = /export/home/rgarcia/121avos/x8y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y7.out
+Log = 121_x8y7.log
+Arguments = /export/home/rgarcia/121avos/x8y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y8.out
+Log = 121_x8y8.log
+Arguments = /export/home/rgarcia/121avos/x8y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x8y9.out
+Log = 121_x8y9.log
+Arguments = /export/home/rgarcia/121avos/x8y9
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y1.out
+Log = 121_x9y1.log
+Arguments = /export/home/rgarcia/121avos/x9y1
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y10.out
+Log = 121_x9y10.log
+Arguments = /export/home/rgarcia/121avos/x9y10
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y11.out
+Log = 121_x9y11.log
+Arguments = /export/home/rgarcia/121avos/x9y11
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y2.out
+Log = 121_x9y2.log
+Arguments = /export/home/rgarcia/121avos/x9y2
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y3.out
+Log = 121_x9y3.log
+Arguments = /export/home/rgarcia/121avos/x9y3
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y4.out
+Log = 121_x9y4.log
+Arguments = /export/home/rgarcia/121avos/x9y4
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y5.out
+Log = 121_x9y5.log
+Arguments = /export/home/rgarcia/121avos/x9y5
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y6.out
+Log = 121_x9y6.log
+Arguments = /export/home/rgarcia/121avos/x9y6
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y7.out
+Log = 121_x9y7.log
+Arguments = /export/home/rgarcia/121avos/x9y7
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y8.out
+Log = 121_x9y8.log
+Arguments = /export/home/rgarcia/121avos/x9y8
+Queue
+
+Executable = calibra_uno.sh
+Universe = vanilla
+Error = 121_$(Process).err
+Output = 121_x9y9.out
+Log = 121_x9y9.log
+Arguments = /export/home/rgarcia/121avos/x9y9
+Queue
