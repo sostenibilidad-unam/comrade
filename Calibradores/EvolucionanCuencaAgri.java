@@ -1,10 +1,14 @@
 package Calibradores;
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.util.LinkedList;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import Metricas.Metrica8metricas;
 import Metricas.MetricaDeAreaConClustersBinaria;
@@ -28,6 +32,7 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 	public EvolucionanCuencaAgri(String carpeta) {
 		
 		this.carpeta = carpeta;
+		System.out.println(carpeta);
 		//leer las celdas del raster de bosques
 		BufferedReader bosquesFile;
 		int ncols = 0;
@@ -51,7 +56,7 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 			e.printStackTrace();
 		}
 		
-		
+		System.out.println("hola");
 		
 		System.out.println("ncols"+ncols);
 		
@@ -68,15 +73,55 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 		
 		
 		// aqui puedo empezar a calibrar desde algunos adns que yo escoja····por ejemplo······int[] unAdn = {3, 3, 21, 64, 326, 98, 93, 13};····vivos.add(0, new Individuo(unAdn));
-		vivos.add(0, new Individuo(infoADN));
-		vivos.add(1, new Individuo(infoADN));
-			
-		vivos.add(2, new Individuo(infoADN));
-		vivos.add(3, new Individuo(infoADN));
-		vivos.add(4, new Individuo(infoADN));
-		vivos.add(5, new Individuo(infoADN));
-		vivos.add(6, new Individuo(infoADN));
-		vivos.add(7, new Individuo(infoADN));
+		
+		// ***********************************************aqui quiero que lea el archivo calibrando.txt y empieze desde la ultima generacion
+		
+		File calibrando = new File (carpeta, "calibrando.txt");
+		
+        
+        
+    	if (calibrando.exists()) {
+    		// ******************************** aqui hay que leer las ultimas lineas del archivo para inicializar los individuos con esos parametros
+    		System.out.println("ya estaba empezado");
+    		try{
+	    		FileInputStream in = new FileInputStream(calibrando);
+	    		BufferedReader br = new BufferedReader(new InputStreamReader(in));
+	    		List<String> lines = new LinkedList<String>();
+	    		for(String tmp; (tmp = br.readLine()) != null;) 
+	    		    if (lines.add(tmp) && lines.size() > 8) 
+	    		        lines.remove(0);
+	    		int contador = -1;
+	    		for (String linea : lines) {
+	    			contador++;
+	    			System.out.println(linea);
+	    			System.out.println("**********************************************");
+	    			String[] pedazos = linea.split(", ");
+	    			int[] parametrosDeEste = new int[8];
+	    			
+	    			for(int i=0; i<8; i++){
+	    				parametrosDeEste[i]=Integer.parseInt(pedazos[i]);
+	    				
+	    			}
+	    			vivos.add(contador, new Individuo(parametrosDeEste));
+	    			
+	    		}
+    		}catch(Exception excepcion){
+	    		System.out.println("no pude");
+	    	}
+
+    		
+    	}else{
+    		vivos.add(0, new Individuo(infoADN));
+    		vivos.add(1, new Individuo(infoADN));
+    			
+    		vivos.add(2, new Individuo(infoADN));
+    		vivos.add(3, new Individuo(infoADN));
+    		vivos.add(4, new Individuo(infoADN));
+    		vivos.add(5, new Individuo(infoADN));
+    		vivos.add(6, new Individuo(infoADN));
+    		vivos.add(7, new Individuo(infoADN));
+    	}
+		
 		
 		//acoplaSliders();
 		
@@ -138,15 +183,31 @@ public class EvolucionanCuencaAgri extends EvolucionanBinario {
 	
 	public static void main(String[] args) throws InterruptedException {
 		String carpeta;
+		int vueltas = 0; 
+		carpeta = "/Users/fidel/25avos_clusters/x4y2";
 		if(args.length == 0){
-			carpeta = "/Users/fidel/121avos";
-		}else{
+			carpeta = "/Users/fidel/25avos_clusters/x4y2";
+		}else if(args.length == 1){
+			if (args[0].matches("[-+]?\\d+(\\.\\d+)?") == true) {
+				carpeta = "/Users/fidel/25avos_clusters/x4y2";
+				vueltas=Integer.parseInt(args[0]);
+			} else {
+				carpeta = args[0];
+			}
+			
+		}else if (args.length == 2){
 			carpeta = args[0];
+			vueltas=Integer.parseInt(args[1]);
 		}
 		
 		EvolucionanCuencaAgri gente = new EvolucionanCuencaAgri(carpeta);
 		//int[] unAdn = {3, 3, 21, 64, 326, 98, 93, 13};
-		gente.empiezen();
+		if (vueltas > 0){
+			gente.empiezenConLimite(vueltas);
+		}else{//sin limite de iteraciones
+			gente.empiezen();
+		}
+		
 		//3, 4, 20, 86, 100, 10, 10, 40, 0.08748903611458428
 		
 	}
