@@ -404,6 +404,7 @@ public class UrbanizandoCuencaAgri extends Automata {
 	}
     
     public void reglasDeTranciscion(int i,int j){
+    	//aqui voy a cambiar las reglas para incluir 3 clases de celda urbana
     	int sumaCiv, sumaMore, sumaRadio3, sumaRadio10;
 		int eras;
   	
